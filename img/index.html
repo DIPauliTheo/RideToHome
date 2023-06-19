@@ -1,0 +1,82 @@
+<!doctype html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RideToHome</title>
+  <link rel="icon" href="img/flavicon/favicon.ico">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="header">
+    <img class="logo"src="img/Logo.png" alt=""/>
+    <h1 class="titre">RideToHome</h1>
+
+    <div class="nav">
+        <ul>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="mestrajets.html">Mes Trajets</a> </li>
+            <li><a href="mescommandes.html">Mes Commandes</a> </li>
+        </ul>
+    </div>
+    </div>
+
+    <div class="main">
+        <div class="trajet">
+            <form method="post"action="traitement.php">
+                <h2>Quel est votre trajet ?</h2>
+                <label for="villedepart"></label>
+                <br>
+                <input class="traj" type="text" name="villedepart" placeholder="Saissisez votre ville de depart" required>
+                <br>
+                <input class="traj" type="text" name="villearriver" placeholder="Saissisez votre ville d'arriver" required>
+                <br>
+                <input class="date" type="datetime-local" name="datedepart" id="depart" placeholder="date" required>
+                <br>
+                <input class="date" type="datetime-local" name="dateretour" id="retour" placeholder="date" required>
+                <br>
+                <select name="passagers"id="passagers" required>
+                    <option value="">1 passagers</option>
+                    <option value="">2 passagers</option>
+                    <option value="">3 passagers</option>
+                    <option value="">Plus de 3 passagers</option>
+                </select>
+                <br>
+                <input class="submit" type="reset"value="Rechercher"/>
+        </div>
+        <img class="img-covoit" 
+            src="img/covoit.png" 
+            alt="Designed by vectorjuice / Freepik" 
+            title="Designed by vectorjuice / Freepik"
+            width="200%"
+            height="50%">
+    </div>
+    <div class="footer">
+        <div class="certif">
+            <img class="img-certif" src="img/client.png">
+            <img class="img-certif" src="img/visa.png">
+            <img class="img-certif" src="img/secure.png">
+            <a href="https://www.apple.com/fr/app-store/">
+                <img class="img-certif" src="img/app.png" >
+            </a>
+            <a href="https://play.google.com/">
+                <img class="img-certif" src="img/play.png" >
+            </a>
+        </div>
+        <div class="plus">
+            <a href="propos.html">À propos</a>
+            <a href="mescommandes.html">Mes billets</a>
+            <a href="mentions.html">Montions légales</a>
+            <a href="rgpd.html">Confidentailité</a>
+        </div>
+        <div class="reseaux">
+            <a href="https://twitter.com/?lang=fr"><img class="img-reseaux" src="img/resseaux/twitter.png"></a>
+            <a href="https://fr-fr.facebook.com/"><img class="img-reseaux" src="img/resseaux/facebook.png"></a>
+            <a href="https://www.instagram.com/?hl=fr"><img class="img-reseaux" src="img/resseaux/instagram.png"></a>
+            <a href="https://fr.linkedin.com/"><img class="img-reseaux" src="img/resseaux/indeed.png"></a>
+            <a href="https://www.youtube.com/?hl=FR"><img class="img-reseaux" src="img/resseaux/youtube.png"></a>
+        </div>
+    </div>
+</body>
+</html>

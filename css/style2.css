@@ -1,0 +1,458 @@
+/*definition de la page entiere*/
+
+body{
+    font-family: 'gill';
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+
+/*importation de la police*/
+
+@font-face {
+    font-family: 'gill';
+    src: url('../font/gill-webfont.woff2') format('woff2'),
+        url('../font/gill-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* --------------------barre du site haut------------------------------ */
+
+/*definition du over des lien du nav*/
+
+.nav2:hover{
+    border-radius: 4px;
+    background-color: #A4D04A ;
+    opacity: 70%;
+}
+
+/*taille logo */
+.logo{
+    width: 125px;
+    height: 75px;
+}
+
+/*couleur du titre*/
+.titre{
+    color: #265E93 ;
+}
+
+
+/*definition de la barre du haut*/
+.header{
+    background: #E5EEEE;
+    height: 50%;
+    box-shadow: 0px 20px 20px 0px rgba(0,0,0,0.25);
+    display:flex;
+}
+
+
+/*emplacement des liens vers les autres pages*/
+.nav{
+    margin: 0 0 0 50%;
+}
+
+/*definition des liens vers les autres pages*/
+
+ul{
+    padding: 15px ;
+    list-style-type:none;
+    display: flex;
+}
+
+
+/*espacement des liens*/
+
+.contact{
+    margin:0 0 0 1em;
+}
+.mestrajets{
+    margin:0 0 0 1em
+}
+.mescommandes{
+    margin:0 0 0 1em
+}
+
+.footer{
+    margin: 0 50px;
+}
+
+
+
+
+/* --------------------corp de la page------------------------------ */
+
+
+/*definition des titres*/
+
+h1{
+    color: #265E93;
+}
+
+/*definition des paragraphes*/
+
+p{
+    color: #265E93;
+}
+
+/*definition du corp de la page */
+
+.main{
+    width: 100%;
+    background: #A4D04A;
+    display: inline-block;
+    
+}
+
+
+
+
+
+
+
+
+/* --------------------page mestrajets------------------------------ */
+
+/*definition des texte dans le div trajet */
+
+.texte_2{
+    border-radius:8px ;
+    width: 15%;
+    height: 7%;
+    text-align: center;
+    background: #265E93;
+    color: #E5EEEE;
+    margin: 2% 43%;
+}
+
+.texte{
+    text-align: center;
+    height: 30%;
+    margin: 2% 31%;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 40%;
+
+}
+
+/*definition du div dispo */
+
+.dispo{
+    border-radius:8px ;
+    width: 10%;
+    text-align: center;
+    background: #265E93;
+    color: #E5EEEE;
+    margin: 2% 45%;
+}
+
+/*definition des bloc trajet */
+
+.bloc-trajet-haut{
+    display: flex;
+    justify-content:space-around;
+    margin: 3% 0 ;
+}
+
+/*definition des bloc trajet */
+
+.bloc-trajet-bas{
+    display: flex;
+    justify-content:space-around;
+}
+
+/*definition du hover des boutton */
+
+.boutton:hover{
+    background-color: #265E93;
+    color: black;
+}
+
+/*definition de l'interieur des bloc trajet */
+
+.trajets{
+    background-color: #E5EEEE;
+    border-radius: 8px;
+    width: 40%;
+    height: 50%;
+    text-align: center;
+    box-shadow: 0px 20px 20px 0px rgba(0,0,0,0.25);
+}
+
+/*definition des boutton */
+
+.boutton{
+    margin: 2% 40%;
+    width: 20%;
+    height: 20%;
+    border-radius:8px ;
+    text-align: center;
+    background: #303030;
+    color: #E5EEEE
+}
+
+
+/* --------------------page mention------------------------------ */
+
+/*corp de la page mention */
+
+.mention{
+    margin:  2% 10%;
+    padding: 0 1%;
+    border-radius:8px ;
+    width: 75%;
+    background: #E5EEEE;;
+    border: rgba(48, 48, 48, 0.5) solid 1px;
+    box-shadow: 0px 20px 20px 0px rgba(0,0,0,0.25);
+    color: #265E93
+}
+
+
+/* --------------------page contact------------------------------ */
+
+
+/*definition du div contact-page contenant les div contact-menu et mail */
+
+.contact-page{
+    display: flex;
+}
+
+/*definition du div mail */
+
+.mail{
+    padding: 2% 0;
+    margin: 20% 10%;
+    background-color: #E5EEEE;
+    border-radius: 8px;
+    width: 30%;
+    height: 50%;
+    text-align: center;
+    box-shadow: 0px 20px 20px 0px rgba(0,0,0,0.25);
+}
+
+
+/*definition du div contact-menu */
+
+.contact-menu{
+    margin: 5% 10%;
+    background-color: #E5EEEE;
+    border-radius: 8px;
+    width: 30%;
+    height: 50%;
+    text-align: center;
+    box-shadow: 0px 20px 20px 0px rgba(0,0,0,0.25);
+}
+
+/*definition  du form */
+
+label{
+    margin: 15% 0;
+}
+
+input{
+    border: rgba(0, 0, 0, 1) solid 1px;
+    margin: 1% 0;
+    border-radius: 8px;
+    height: 4em;
+    width: 90%;
+    text-align: center;
+    font-size: 1em;
+
+}
+
+textarea{
+    border: rgba(0, 0, 0, 1) solid 1px;
+    margin: 1% 0;
+    border-radius: 8px;
+    width: 90%;
+    height: 10em;
+    text-align: center;
+    font-size: 1em;
+
+}
+
+.boutton-contact{
+    margin: 2% 5%;
+    width: 25%;
+    border-radius:8px ;
+    text-align: center;
+    background: #303030;;
+    border: rgba(48, 48, 48, 0.5) solid 1px;
+    color: #E5EEEE
+}
+
+.boutton-contact:hover{
+
+    background-color: #265E93;
+    color: black;
+}
+
+.boutton-post{
+    margin: 2% 40%;
+    width: 20%;
+    height: 20%;
+    border-radius:8px ;
+    text-align: center;
+    background: #303030;;
+    border: rgba(48, 48, 48, 0.5) solid 1px;
+    color: #E5EEEE
+}
+
+.boutton-post:hover{
+    background-color: #265E93;
+    color: black;
+}
+
+
+
+
+
+/* --------------------page compte------------------------------ */
+
+
+
+/*definition du bloc connexion */
+
+.connexion{
+    margin: 5% 25%;
+    background-color: #E5EEEE;
+    border-radius: 8px;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    box-shadow: 0px 20px 20px 0px rgba(0,0,0,0.25);
+}
+
+/*definition de l'interieur du bloc connexion */
+
+.con{
+    margin: 5% 5%;
+    width: 25%;
+    border-radius:8px ;
+    text-align: center;
+    background: #303030;;
+    border: rgba(48, 48, 48, 0.5) solid 1px;
+    color: #E5EEEE
+}
+
+/*definition du hover des boutton du bloc connexion */
+
+.con:hover{
+    background-color: #265E93;
+    color: black;
+}
+
+
+
+
+
+a{
+    text-decoration: none;
+    color: #265E93;
+    font-size: 18px;
+}
+
+
+
+
+
+
+/* --------------------Barre du site en bas------------------------------ */
+
+
+
+
+
+
+
+/* definitions de la barre du bas */
+
+.footer{
+    height: 10%;
+    background: #265E93;
+    display: flex;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+
+/* placement des image/lien des certifications */
+
+.certif{
+    display: inline-block;
+    margin: 2% 0;
+    height: 10em;
+}
+
+
+/*emplacement des liens vers les autres pages*/
+.plus{
+    padding: 1% 0;
+    display: inline-block;
+    height: 10em;
+    width: 10%;
+    margin: 7% 10%;
+    
+}
+
+/*espacement des liens*/
+
+.sous-plus{
+    margin: 10% 0;
+}
+
+
+/*couleur des liens du bas de la page*/
+
+.plus1{
+    text-decoration: none;
+    color: #E5EEEE;
+    font-size: 18px;
+}
+
+
+/*emplacement des liens vers les reseaux*/
+
+.reseaux{
+    height: 5em;
+    display: flex;
+    margin: 10% 18%;    
+}
+
+/* definitions de la taille des images des reseaux */
+
+.img-reseaux{
+    height: 50px;
+    width: 50px;
+    padding:0 10px;
+}
+
+/* definitions de la taille des images des certifications */
+
+.img-certif{
+    height: 50px;
+    width: 150px;
+}
+
+/* definition du footer plus de la page compte */
+
+
+.footer_plus{
+    width: 100%;
+    height: 3.5em;
+    background-color: #265E93;
+}
+
+
+/* definition du footer bas de la page compte */
+
+.footer_bas{
+    width: 100%;
+    height: 12.6em;
+    background-color: #265E93;
+}
+
+

@@ -1,0 +1,266 @@
+/*definition de la page entiere*/
+
+body{
+    font-family: 'gill';
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+
+/*importation de la police*/
+
+@font-face {
+    font-family: 'gill';
+    src: url('../font/gill-webfont.woff2') format('woff2'),
+        url('../font/gill-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* --------------------barre du site haut------------------------------ */
+
+
+/*taille logo */
+.logo{
+    width: 125px;
+    height: 75px;
+}
+
+/*couleur du titre*/
+.titre{
+    color: #265E93 ;
+}
+
+
+/*definition de la barre du haut*/
+.header{
+    background: #E5EEEE;
+    height: 50%;
+    box-shadow: 0px 20px 20px 0px rgba(0,0,0,0.25);
+    display:flex;
+}
+
+
+/*emplacement des liens vers les autres pages*/
+.nav{
+    margin: 0 0 0 50%;
+}
+
+/*definition des liens vers les autres pages*/
+
+ul{
+    padding: 15px ;
+    list-style-type:none;
+    display: flex;
+}
+
+
+/*espacement des liens*/
+
+.contact{
+    margin:0 0 0 1em;
+}
+.mestrajets{
+    margin:0 0 0 1em
+}
+.mescommandes{
+    margin:0 0 0 1em
+}
+
+.footer{
+    margin: 0 50px;
+}
+
+/*hover des liens */
+
+.nav2:hover{
+    border-radius: 4px;
+    background-color: #A4D04A ;
+    opacity: 70%;
+}
+
+
+
+
+/* --------------------corp de la page------------------------------ */
+
+
+/*definition du corp de la page */
+
+.main{
+    width: 100%;
+    background: #A4D04A;
+    display: flex;
+}
+
+/*definition du formulaire central */
+
+.trajet{
+    margin: 5% 10%;
+    background-color: #E5EEEE;
+    border-radius: 8px;
+    width: 30%;
+    height: 50%;
+    text-align: center;
+    box-shadow: 0px 20px 20px 0px rgba(0,0,0,0.25);
+}
+
+/*definition des element du formulaire central */
+
+.traj{
+    margin: 1%;
+}
+
+input{
+    border: rgba(0, 0, 0, 1) solid 3px;
+    margin: 3% 0;
+    border-radius: 8px;
+    height: 4em;
+    width: 50%;
+    text-align: center;
+    font-size: 1em;
+
+}
+
+.date{
+    margin: 1%;
+    background-repeat: no-repeat;
+    background-position: 10px;
+    text-decoration: none;
+    font-size: 1em;
+    
+
+}
+
+select{
+    border: rgba(0, 0, 0, 1) solid 3px;
+    margin: 2% 0;
+    border-radius: 8px;
+    height: 4em;
+    width: 50%;
+    font-size: 1em;
+    text-align: center;
+    background-image: url("../img/personne.png") ;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+
+
+.submit{
+    width: 35%;
+    height: 3em;
+    font-weight: 700;
+    font-size: 1em;
+    background: #303030;;
+    border: rgba(48, 48, 48, 0.5) solid 1px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    color: #E5EEEE;
+}
+
+.submit:hover{
+    background-color: #265E93;
+    color: black;
+}
+
+/*image principal de la page */
+
+.img_covoit{
+    margin:5% 0;
+    padding: 1% 0;
+}
+
+.img_co{
+    width: 120%;
+    height: 105%;
+}
+
+/*definitions des liens*/
+
+a{
+    text-decoration: none;
+    color: #265E93;
+    font-size: 18px;
+}
+
+
+/* --------------------Barre du site en bas------------------------------ */
+
+
+
+
+
+/* definitions de la barre du bas */
+
+.footer{
+    height: 10%;
+    background: #265E93;
+    display: flex;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+
+/* placement des image/lien des certifications */
+
+.certif{
+    display: inline-block;
+    margin: 2% 0;
+    height: 10em;
+}
+
+
+/*emplacement des liens vers les autres pages*/
+.plus{
+    padding: 1% 0;
+    display: inline-block;
+    height: 10em;
+    width: 10%;
+    margin: 7% 10%;
+    
+}
+
+/*espacement des liens*/
+
+.sous-plus{
+    margin: 10% 0;
+}
+
+
+/*couleur des liens du bas de la page*/
+
+.plus1{
+    text-decoration: none;
+    color: #E5EEEE;
+    font-size: 18px;
+}
+
+
+/*emplacement des liens vers les reseaux*/
+
+.reseaux{
+    height: 5em;
+    display: flex;
+    margin: 10% 18%;    
+}
+
+/* definitions de la taille des images des reseaux */
+
+.img-reseaux{
+    height: 50px;
+    width: 50px;
+    padding:0 10px;
+}
+
+/* definitions de la taille des images des certifications */
+
+.img-certif{
+    height: 50px;
+    width: 150px;
+}
+
+
+
