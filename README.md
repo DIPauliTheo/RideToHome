@@ -13,7 +13,9 @@ Ajoutez ici quelques captures d'écran illustrant l'interface utilisateur de vot
 
 # Installation
 Clonez ce dépôt de code sur votre machine locale.
+'''Bash
     -git clone https://github.com/DIPauliTheo/RideToHome.git
+'''
 Naviguez dans le répertoire du projet.
     -cd RideToHome
 Installez les dépendances requises.
